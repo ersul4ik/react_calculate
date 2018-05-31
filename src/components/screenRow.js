@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const ScreenRow = (props) => {
   return (
-    <div className="screen-row">
+    <div className="screen-row form-control">
       <input type="text" readOnly value={props.value}/>
     </div>
   )
