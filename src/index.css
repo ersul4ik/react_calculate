@@ -3,10 +3,6 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.screen input[type=text] {
-    /*background-color: #3CBC8D;*/
-    /*color: white;*/
-}
 .button {
     background-color: #4CAF50; /* Green */
     border: none;

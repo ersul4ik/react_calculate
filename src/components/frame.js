@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 import Screen from './screen';
 import Button from './button';
 
@@ -17,7 +17,6 @@ class Frame extends React.Component {
   render() {
     return (
       <div className="frame container">
-        <div className="row">
         <Screen question={this.state.question} answer={this.state.answer}/>
         <div className="button-row">
           <Button label={'1'} handleClick={this.handleClick} type='input' />
@@ -42,7 +41,6 @@ class Frame extends React.Component {
           <Button label={'Cls'} handleClick={this.handleClick} type='action' />
           <Button label={'='} handleClick={this.handleClick} type='action' />
         </div>
-      </div>
       </div>
     );
   }
